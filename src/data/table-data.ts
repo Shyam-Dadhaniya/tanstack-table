@@ -1,0 +1,161 @@
+export type Person = {
+  userId: string;
+  firstName: string;
+  lastName: string;
+  age: number;
+  visits: number;
+  status: string;
+  progress: number;
+  subRows?: Person[];
+};
+
+export const defaultData: Person[] = [
+  {
+    userId: "1",
+    firstName: "Dhaval",
+    lastName: "Kaneriya",
+    age: 35,
+    visits: 100,
+    status: " Online",
+    progress: 50,
+    subRows: [
+      {
+        userId: "2",
+        firstName: "Shyam",
+        lastName: "Dadhaniya",
+        age: 24,
+        visits: 100,
+        status: " Online",
+        progress: 50,
+      },
+      {
+        userId: "3",
+        firstName: "Smeet",
+        lastName: "Patel",
+        age: 25,
+        visits: 100,
+        status: " Offline",
+        progress: 50,
+      },
+    ],
+  },
+  {
+    userId: "4",
+    firstName: "Parth",
+    lastName: "Nariya",
+    age: 40,
+    visits: 40,
+    status: "Offline",
+    progress: 80,
+  },
+  {
+    userId: "5",
+    firstName: "Kaushal",
+    lastName: "Patel",
+    age: 45,
+    visits: 20,
+    status: "Complicated",
+    progress: 10,
+  },
+  {
+    userId: "6",
+    firstName: "Parth",
+    lastName: "Nariya",
+    age: 40,
+    visits: 40,
+    status: "Offline",
+    progress: 80,
+  },
+  {
+    userId: "7",
+    firstName: "Kaushal",
+    lastName: "Patel",
+    age: 45,
+    visits: 20,
+    status: "Complicated",
+    progress: 10,
+  },
+  {
+    userId: "8",
+    firstName: "Kaushal",
+    lastName: "Patel",
+    age: 45,
+    visits: 20,
+    status: "Complicated",
+    progress: 10,
+  },
+  {
+    userId: "9",
+    firstName: "Kaushal",
+    lastName: "Patel",
+    age: 45,
+    visits: 20,
+    status: "Complicated",
+    progress: 10,
+  },
+  {
+    userId: "10",
+    firstName: "Dhaval",
+    lastName: "Kaneriya",
+    age: 35,
+    visits: 100,
+    status: " Online",
+    progress: 50,
+    subRows: [
+      {
+        userId: "11",
+        firstName: "Shyam",
+        lastName: "Dadhaniya",
+        age: 24,
+        visits: 100,
+        status: " Online",
+        progress: 50,
+      },
+      {
+        userId: "12",
+        firstName: "Smeet",
+        lastName: "Patel",
+        age: 25,
+        visits: 100,
+        status: " Online",
+        progress: 50,
+      },
+    ],
+  },
+  {
+    userId: "13",
+    firstName: "Parth",
+    lastName: "Nariya",
+    age: 40,
+    visits: 40,
+    status: "Offline",
+    progress: 80,
+  },
+  {
+    userId: "14",
+    firstName: "Kaushal",
+    lastName: "Patel",
+    age: 45,
+    visits: 20,
+    status: "Complicated",
+    progress: 10,
+  },
+  {
+    userId: "15",
+    firstName: "Parth",
+    lastName: "Nariya",
+    age: 40,
+    visits: 40,
+    status: "Offline",
+    progress: 80,
+  },
+  {
+    userId: "16",
+    firstName: "Kaushal",
+    lastName: "Patel",
+    age: 45,
+    visits: 20,
+    status: "Complicated",
+    progress: 10,
+  },
+];
